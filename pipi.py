@@ -1,6 +1,8 @@
 import pygame
 import sys
 from pygame.locals import *
+import speech_recognition as sr 
+import pyaudio
 pygame.init()
 screen = pygame.display.set_mode((500, 400))
 pygame.display.set_caption("Trial")
